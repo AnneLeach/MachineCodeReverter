@@ -12,9 +12,9 @@ Or to run another test case:
 	
 
 ### Meta
-Authors: Anne Leach & Zachary Vasey
-Instructor: Gregory Lakomski
-Course: Architecture Fall 2018
+- Authors: Anne Leach & Zachary Vasey
+- Instructor: Gregory Lakomski
+- Course: Architecture Fall 2018
 
 
 	
