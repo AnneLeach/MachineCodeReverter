@@ -1,0 +1,45 @@
+*** Program must accept the command line arguments for execution:
+    $ python team6_project1.py -i test1_bin.txt -o team6_out
+
+*** Produce 1 output file named:
+    team6_out.txt
+
+*** Output file must:
+    1)  1 line per word
+    2)  Separated into 4 columns (each separated by a tab character)
+    3)  Each column should contain:
+        a  literal binary of instruction (32 b)
+        b)  address of memory location (decimal)
+        c)  IF its an instruction, print the operation, followed by a tab
+            character, then print each argument separated by comma and space.
+
+*** What to turn in:  1 zipped folder containing:
+    1)  Source file
+        a)  Executable must be named:  team6_project1.py
+    2)  Test input file (preferably one provided).
+    3)  Test output file.
+    4)  README.txt to indicate how to run on linux.  (Graded on linux.)
+
+*** Bulk of code contained in a python class, executed by ruin().
+    class TestMe:
+        #def __init__(self):
+        def run(self):
+            global opcodeStr
+            global validStr
+            global arg1
+            global arg2...
+
+*** Read in file name off command line
+    for i in range(len(sys.argv)):
+        if (sys.argv[i] == '-i' and i < (len(sys.argv) - 1)):
+        inputFileName = sys.argv[i + 1]
+        print inputFileName
+        elif (sys.argv[i] == '-o' and i < (len(sys.argv) - 1)):
+        outputFileName = sys.argv[i + 1]
+
+
+*** NOTES
+
+    1)  Python Command Line Arguments
+
+

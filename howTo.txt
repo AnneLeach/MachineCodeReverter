@@ -1,0 +1,20 @@
+# HOW TO OPEN A TEXT FILE
+
+    # Use Python's built-in open function to get a file object.
+    # The open function opens a file.
+    # fileObject = open("filename", "mode")
+        #  r:  read files
+        #  w:  edit and write new info to file (will erase existing files with same name.
+        #  a:  append new data to end of file.
+        #  r+:  special read and write mode.
+
+# HOW TO GET FILE NAMES OFF COMMAND LINE
+
+    for i in range(len(sys.argv)):
+        if(sys.argv[i] == '-i' and i < (len(sys.argv) - 1)):
+            inputFileName = sys.argv[i+1]
+            print inputFileName
+        elif (sys.argv[i] == '-o' and i < (len(sys.argv) - 1)):
+            outputFileName = sys.argv[i+1]
+
+
