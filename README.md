@@ -12,11 +12,7 @@ Or to run another test case:
 	
 
 ### Meta
-Authors
-
-	Anne Leach - AL1404
-	
-	Zachary Vasey - ZWV2
+Authors: Anne Leach & Zachary Vasey
 	
 Instructor: Gregory Lakomski
 
