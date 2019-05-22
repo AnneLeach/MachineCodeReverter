@@ -1,4 +1,4 @@
-### What
+### Machine Code Reverter
 This program consumes formatted binary machine code (ARM v8) and produces human-readable code.  The product is both printed to screen and written to the output file.  	At professor's request, all classes are in one single file.
 
 ### How
